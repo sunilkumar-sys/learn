@@ -1,0 +1,94 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-26T22:59:49.667Z",
+        "line": 8,
+        "name": "Search for vegetables and add to cart",
+        "description": "",
+        "id": "searching-for-vegs-in-the-search-bar;search-for-vegetables-and-add-to-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 85000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefinations.hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7677000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is on greenkart website homepage",
+            "match": {
+              "location": "Stepdefinations.Practise.user_is_on_greenkart_website_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 170000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters vegetable name in the in search bar \"Tomato\" and click on search button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Tomato\"",
+                  "offset": 48
+                }
+              ],
+              "location": "Stepdefinations.Practise.user_enters_vegetable_name_in_the_in_search_bar_and_click_on_search_button(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 602000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user increament the count and add prodcut to cart",
+            "match": {
+              "location": "Stepdefinations.Practise.user_increament_the_count_and_add_prodcut_to_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 345000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click on cart button and click on payment checkout option",
+            "match": {
+              "location": "Stepdefinations.loginstepdefination.click_on_cart_button_and_click_on_payment_checkout_option()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@karts"
+          }
+        ]
+      }
+    ],
+    "name": "Searching for vegs in the search bar",
+    "description": "",
+    "id": "searching-for-vegs-in-the-search-bar",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Featuresfiles/practise.feature",
+    "tags": []
+  }
+]

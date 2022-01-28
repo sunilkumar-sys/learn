@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="9.313">
+<testcase classname="Searching for vegs in the search bar" name="Search for vegetables and add to cart" time="9.001">
+<system-out><![CDATA[Given User is on greenkart website homepage.................................passed
+When user enters vegetable name in the in search bar "Tomato" and click on search button.passed
+Then user increament the count and add prodcut to cart......................passed
+And click on cart button and click on payment checkout option...............passed
+]]></system-out>
+</testcase>
+</testsuite>
